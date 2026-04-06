@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-family: arial;
+        background-image: url(https://png.pngtree.com/background/20230416/original/pngtree-website-technology-line-dark-background-picture-image_2443641.jpg);
+        color: aliceblue;
+        background-size: cover;
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2px 2px 2px greenyellow;
+    }
+    .frontend{
+        line-height: 2;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+        text-shadow: 2px 2px 2px greenyellow;
+    }
+    .button{
+        text-align: center;
+        padding: 40px;
+    } 
+    button{
+        height: 35px;
+        width: 80px;
+        border-radius: 5px;
+        background-color: aquamarine;
+        font-size: 20px;
+    }
+    button:hover{
+        background-color: antiquewhite;
+    }
+ </style>
+ <body>
+    <h1><u>welcome To My Homepage</u></h1>
+    <div class="frontend">
+        <p>Hello, everyone</p>
+        <p>I am Savin a frontend developer</p>
+        <p>I create responsive and user-friendly websites using HTML & CSS.</p>
+    </div>
+    <div class="button">
+        <button onclick="goBack()">Back</button>
+    </div>
+    <script>
+        function goBack(){
+            window.history.back();
+        }
+    </script>
+ </body>
+ </html>
